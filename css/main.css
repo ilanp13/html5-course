@@ -1,0 +1,36 @@
+#ex {
+    height: 500px;
+    width: 600px;
+    margin: 20px auto;
+}
+#success, #failures {
+    text-align: left;
+}
+#successNum{
+    color: green;
+}
+#failuresNum{
+    color: red;
+}
+#game{
+    border: 5px solid cornflowerblue;
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+#racket{
+    height: 10px;
+    width: 50px;
+    background-color:dimgrey;
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    left:48%;
+}
+#squares{
+    height: 10px;
+    width: 10px;
+    background-color: blueviolet;
+    position: absolute;
+    display: inline-block;
+}
