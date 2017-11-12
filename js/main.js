@@ -27,7 +27,7 @@ $(document).ready(function () {
             var gameHeight = parseInt($("#game").height());
 
             var racketValues = $("#racket").position();
-            if (placeInHeight + 10 >= racketValues.top && placeInWidth >= racketValues.left && placeInWidth <= racketValues.left + 50) {
+            if (placeInHeight + 10 >= racketValues.top && placeInWidth+10 >= racketValues.left && placeInWidth <= racketValues.left + 50) {
                 successNum++;
                 $("#successNum").html(successNum);
 
